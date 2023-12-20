@@ -1,0 +1,273 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(./imgs/rrrrr.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+header .logo {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-weight: bold;
+  color: #1877f2;
+  font-family: fantasy, sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header .logo:hover {
+  text-shadow: 0 0 1px #ffffff, 0 0 5px #1877f2, 0 0 10px #62a6ff;
+}
+
+.toggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  cursor: pointer;
+}
+.light-toggler {
+  color: white;
+}
+.slider {
+  height: 20px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: #eee;
+  position: relative;
+}
+.ball {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #61dafb;
+  top: 1px;
+  left: 5%;  
+  transition: 0.3s;
+  color: #999;
+}
+.ball.dark {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #61dafb;
+  top: 1px;
+  left: 50%;
+  transition: 0.3s;
+}
+.active {
+  color: white;
+}
+
+nav, footer {
+  background-color: #333;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  z-index: 100;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a, footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover, footer a:hover, .toggler p:hover {
+  color: #56b4e9;
+}
+
+main {
+  max-width: 800px;
+  margin: 170px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+main .full-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+main .container {
+  display: flex;
+}
+
+main .half-img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+#weather-info {
+  text-align: center;
+  background: url(./imgs/rrr.jpg);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding:100px 100px 0;
+}
+
+.footer .box h3 {
+  color: white;
+  font-size: 50px;
+  margin: 0 0 20px;
+}
+
+.footer .box .social {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer .box .social li {
+  margin-right: 10px;
+}
+
+.footer .box .social li a {
+  background-color: #313131;
+  color: #b9b9b9;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.footer .box .social .facebook:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.footer .box .social .twitter:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.footer .box .social .youtube:hover {
+  background-color: #ff0000;  
+  color: white;
+}
+
+.footer .box .text {
+  line-height: 2;
+  color: #b9b9b9;
+  width: 400px;
+  margin: 10px;
+  padding: 0 20px;
+}
+
+.footer .box .links li {
+  padding: 15px 0;
+  margin-right: 100px;
+  transition: 0.3s;
+  list-style: none;
+}
+
+.footer .box .links  li:not(:last-child) {
+  border-bottom: 1px solid #777;
+}
+
+.footer .box .links li a {
+  color: #b9b9b9;
+  transition: 0.3s;
+}
+
+.footer .box .links li a:hover {
+  color: #1877f2;
+}
+
+.footer .box .line {
+  display: flex;
+  align-items: center;
+  color: #b9b9b9;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.footer .box .line .info {
+  line-height: 1.7;
+  flex: 1;
+}
+
+.footer .box .line .info span {
+  display: block;
+}
+
+.footer .copyright {
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+}
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

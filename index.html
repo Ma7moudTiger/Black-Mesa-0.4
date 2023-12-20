@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather and Climate</title>
+    <link rel="stylesheet" href="./BM.css">
+</head>
+<body>
+    <header>
+        <div class="logo">BondoQ</div>
+        <h1 id="header-title">Weather and Climate</h1>
+        <div class="toggler">
+            <p class="en-toggler">English</p>
+            <div class="slider">
+                <div class="ball"></div>
+            </div>
+            <p class="ar-toggler">عربي</p>
+            </div>
+    </header>
+    <nav>
+        <a href="#weather" data-i18n="weather-h">Weather</a>
+        <a href="#climate" data-i18n="climate-h">Climate Change</a>
+        <a href="#ocean" data-i18n="ocean-h">Save the Ocean</a>
+        <a href="#environment" data-i18n="environment-h">Environment Conservation</a>
+    </nav>
+    <main id="weather">
+        <div id="weather-info">
+            <h2 data-i18n="current-weather">Current Weather</h2>
+            <p id="location" data-i18n="fetching-location">Fetching location...</p>
+            <p id="temperature" data-i18n="fetching-temperature">Fetching temperature...</p>
+            <p id="description" data-i18n="fetching-weather-description">Fetching weather description...</p>
+        </div>
+    </main>
+
+    <main id="climate" style="display: none;">
+        <h2 data-i18n="climate-change">Climate Change</h2>
+        <img src="./imgs/r.jpg" class="full-img" alt="climate">
+        <p data-i18n="climate-change-p">
+            Climate change refers to significant, long-term changes in the average temperature,
+            weather patterns, and other climate parameters on Earth. It is largely driven by human
+            activities, such as the burning of fossil fuels and deforestation, leading to an
+            increase in greenhouse gas emissions and global warming.
+        </p>
+        <p data-i18n="climate-change-p-two">
+            The consequences of climate change include rising sea levels, extreme weather events,
+            loss of biodiversity, and impacts on human health and food security. Addressing climate
+            change requires global cooperation to reduce emissions, transition to sustainable
+            energy sources, and adapt to the changing climate.
+        </p>
+    </main>
+
+    <main id="ocean" style="display: none;">
+        <h2 data-i18n="save-ocean">Save the Ocean</h2>
+
+        <section id="reduce-plastic">
+            <h3 data-i18n="plastic-use">Reduce Plastic Usage</h3>
+            <div class="container">
+                <p data-i18n="plastic-use-p">
+                    Plastic pollution poses a significant threat to marine life. By reducing our plastic
+                    usage, we can help protect the ocean and its inhabitants. Use reusable bags, bottles,
+                    and containers, and say no to single-use plastics.
+                </p>
+                <img src="./imgs/rr.jpg" alt="plastic" class="half-img">
+            </div>
+        </section>
+
+        <section id="address-pollution">
+            <h3 data-i18n="address-poll">Address Marine Pollution</h3>
+            <p data-i18n="address-poll-p">
+                Marine pollution, including oil spills and industrial waste, harms the ocean ecosystem.
+                Support and advocate for policies that regulate and prevent pollution. Participate in
+                beach cleanups to remove harmful debris from coastal areas.
+            </p>
+        </section>
+
+        <section id="sustainable-fishing">
+            <h3 data-i18n="promote-fishing">Promote Sustainable Fishing</h3>
+            <p data-i18n="promote-fishing-p">
+                Overfishing is a serious threat to fish populations and the balance of marine ecosystems.
+                Choose sustainably sourced seafood, support fisheries that follow responsible practices,
+                and be aware of the impact of your seafood choices on the ocean.
+            </p>
+        </section>
+
+        <section id="conserve-habitats">
+            <h3 data-i18n="habitates">Conserve Coastal Habitats</h3>
+            <p data-i18n="habitates-p">
+                Coastal habitats, such as mangroves and coral reefs, play a crucial role in supporting
+                marine biodiversity. Advocate for the protection and conservation of these habitats,
+                as they provide essential breeding and feeding grounds for many species.
+            </p>
+        </section>
+
+        <section id="combat-climate-change">
+            <h3 data-i18n="combat-climate">Combat Climate Change</h3>
+            <p data-i18n="combat-climate-p">
+                Climate change has severe consequences for the ocean, including rising sea levels and
+                ocean acidification. Support initiatives that aim to reduce carbon emissions and combat
+                climate change to safeguard the health of the ocean and its creatures.
+            </p>
+        </section>
+
+    </main>
+
+    <main id="environment" style="display: none;">
+        <h2 data-i18n="environment">Environment Conservation</h2>
+
+        <section id="sustainable-living">
+            <h3 data-i18n="sustainable">Practice Sustainable Living</h3>
+            <p data-i18n="sustainable-p">
+                Adopt sustainable habits in your daily life, such as reducing energy consumption,
+                conserving water, and recycling. Small actions collectively contribute to a healthier
+                environment and a reduced ecological footprint.
+            </p>
+        </section>
+
+        <section id="plant-trees">
+            <h3 data-i18n="trees">Plant Trees and Support Afforestation</h3>
+            <p data-i18n="">
+                Trees play a crucial role in absorbing carbon dioxide and providing oxygen. Participate
+                in tree-planting initiatives and support afforestation projects to enhance biodiversity
+                and combat climate change.
+            </p>
+        </section>
+
+        <section id="reduce-waste">
+            <h3 data-i18n="reduce-usage">Minimize Waste Generation</h3>
+            <p data-i18n="reduce-usage-p">
+                Aim to minimize waste by choosing products with minimal packaging, composting organic
+                waste, and properly disposing of hazardous materials. Embrace a zero-waste lifestyle to
+                reduce the impact on landfills.
+            </p>
+        </section>
+
+        <section id="support-clean-energy">
+            <h3 data-i18n="clean-energy">Support Clean and Renewable Energy</h3>
+            <p data-i18n="clean-energy-p">
+                Advocate for and support the use of clean and renewable energy sources, such as solar,
+                wind, and hydropower. Transitioning to sustainable energy reduces reliance on fossil fuels
+                and decreases greenhouse gas emissions.
+            </p>
+        </section>
+
+    </main>
+
+        <footer>
+        <div class="footer">
+            <div class="container">
+            <div class="box">
+                <h3 data-i18n="footer-logo">BondoQ</h3>
+                <ul class="social">
+                <li>
+                    <a href="#" class="facebook">
+                    ❤
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="twitter">
+                    ♦
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" class="youtube">
+                    ♠
+                    </a>
+                </li>
+                </ul>
+                <p class="text" data-i18n="footer-txt">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit amet at dicta autem rerum mollitia modi molestias deleniti ad consectetur! Iure velit odit possimus
+                </p>
+            </div>
+            <div class="box">
+                <ul class="links">
+                <li><a href="#">Important Link 1</a></li>
+                <li><a href="#">Important Link 2</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                <div class="info">Egypt, Giza, Inside The Sphinks,Room Number 220</div>
+                </div>
+                <div class="line">
+                <div class="info">Business Hours: from 0=10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                <div class="info">
+                    <span>+20123456789</span>
+                    <span>+20123434567</span>
+                </div>
+                <div class="info">
+                    <span>+20123456789</span>
+                    <span>+20123434567</span>
+                </div>
+                </div>
+            </div>
+            </div>
+            <p class="copyright">Made With ❤ By BondoQ</p>
+            </div>
+    </footer>
+
+    <script src="./BM.js"></script>
+</body>
+</html>
