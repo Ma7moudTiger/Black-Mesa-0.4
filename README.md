@@ -10,7 +10,7 @@ However, as of the current state, the project remains unfinished and is a work i
 As of [current date], the Weather App is still in development, and several features and functionalities are yet to be implemented. The application's core functionalities, such as fetching weather data and displaying basic information, may be operational, but advanced features and a polished user interface are pending completion.
 
 ## Planned Features
-``
+
 ~~Enhanced user interface for a seamless user experience~~
 ``
 ~~Basic weather data fetching~~
