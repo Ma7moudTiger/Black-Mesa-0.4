@@ -18,7 +18,7 @@ may be operational, but advanced features and a polished user interface are pend
 
 🟢 ~~Basic weather data fetching~~ 
 
-~~Display of current weather conditions~~ 🟢
+🟢 ~~Display of current weather conditions~~ 
 
 Forecasting for multiple days
 
