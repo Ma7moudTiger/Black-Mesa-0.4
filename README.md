@@ -16,7 +16,7 @@ may be operational, but advanced features and a polished user interface are pend
 
 🟢 ~~Enhanced user interface for a seamless user experience~~ 
 
-~~Basic weather data fetching~~ 🟢
+🟢 ~~Basic weather data fetching~~ 
 
 ~~Display of current weather conditions~~ 🟢
 
