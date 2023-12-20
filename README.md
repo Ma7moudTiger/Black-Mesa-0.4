@@ -22,7 +22,7 @@ Forecasting for multiple days
 Geolocation to automatically detect user location
 
 Weather alerts and notifications
-``
+
 Unit conversion (e.g., Celsius to Fahrenheit)
 ``
 Implemented Features
