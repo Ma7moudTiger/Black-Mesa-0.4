@@ -20,7 +20,7 @@ may be operational, but advanced features and a polished user interface are pend
 
 🟢 ~~Display of current weather conditions~~ 
 
-Forecasting for multiple days 🔴
+🔴 Forecasting for multiple days 
 
 Geolocation to automatically detect user location
 
