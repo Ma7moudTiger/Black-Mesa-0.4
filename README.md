@@ -1,6 +1,5 @@
 # Weather App (Unfinished)
-``
-``
+
 ## Overview
 This Weather App project was initiated in November with the goal of creating a user-friendly application
 to provide accurate and up-to-date weather information.
