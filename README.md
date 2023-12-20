@@ -14,11 +14,11 @@ may be operational, but advanced features and a polished user interface are pend
 
 ## Planned Features
 
-~~Enhanced user interface for a seamless user experience~~
+~~Enhanced user interface for a seamless user experience~~ 🟢
 
-~~Basic weather data fetching~~
+~~Basic weather data fetching~~ 🟢
 
-~~Display of current weather conditions~~
+~~Display of current weather conditions~~ 🟢
 
 Forecasting for multiple days
 
