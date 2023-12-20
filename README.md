@@ -18,7 +18,7 @@ As of [current date], the Weather App is still in development, and several featu
 ~~Display of current weather conditions~~
 
 Forecasting for multiple days
-``
+
 Geolocation to automatically detect user location
 ``
 Weather alerts and notifications
