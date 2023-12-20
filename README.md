@@ -26,6 +26,6 @@ may be operational, but advanced features and a polished user interface are pend
 
 🔴 Weather alerts and notifications
 
-Implemented Features
+🔴 Implemented Features
 
 
