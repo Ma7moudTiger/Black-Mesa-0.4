@@ -24,7 +24,7 @@ may be operational, but advanced features and a polished user interface are pend
 
 🔴 Geolocation to automatically detect user location
 
-Weather alerts and notifications
+🔴 Weather alerts and notifications
 
 Implemented Features
 
