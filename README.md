@@ -14,7 +14,7 @@ As of [current date], the Weather App is still in development, and several featu
 ~~Enhanced user interface for a seamless user experience~~
 
 ~~Basic weather data fetching~~
-``
+
 ~~Display of current weather conditions~~
 ``
 Forecasting for multiple days
