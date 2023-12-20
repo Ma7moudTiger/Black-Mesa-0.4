@@ -20,7 +20,7 @@ As of [current date], the Weather App is still in development, and several featu
 Forecasting for multiple days
 
 Geolocation to automatically detect user location
-``
+
 Weather alerts and notifications
 ``
 Unit conversion (e.g., Celsius to Fahrenheit)
