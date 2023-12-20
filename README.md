@@ -22,7 +22,7 @@ may be operational, but advanced features and a polished user interface are pend
 
 🔴 Forecasting for multiple days 
 
-Geolocation to automatically detect user location
+🔴 Geolocation to automatically detect user location
 
 Weather alerts and notifications
 
